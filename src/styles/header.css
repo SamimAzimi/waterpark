@@ -1,7 +1,27 @@
-header  {
+nav  {
 
-
+    border:1px solid black;
     position:sticky;
     top:0;
+    display: flex;
+   
+    justify-content: space-evenly;
     
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+ul {
+    align-self: right;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+li {
+
+    padding:23px;
+    list-style: none;
+    border:1px solid black;
 }
