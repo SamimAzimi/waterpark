@@ -1,0 +1,49 @@
+footer {
+
+    padding:14px;
+    width: 100%;
+    background-color: black;
+    color:white;
+ 
+    
+}
+footer>div {
+    display: flex;
+   justify-content: space-around;
+}
+footer > p {
+    text-align: center;
+}
+.subscribe form, .footerUL{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.footerList:hover {
+    color:red;
+    cursor: pointer;
+}
+.footerList {
+    margin:10px;
+}
+.footerList>svg {
+    margin-right: 8px;
+}
+
+.subscribe form svg:hover {
+    color:red;
+}
+.subscribe form svg {
+    margin-left:10px;
+   
+}
+.groupsubscribe {
+    display: flex;
+    align-items: center;
+}
+.subscribeInput {
+    outline: none;
+    padding:7px;
+}

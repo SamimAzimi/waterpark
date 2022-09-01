@@ -6,14 +6,13 @@ import Buildings from './pages/Buildings'
 import Aboutus from './pages/Aboutus'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import './styles/app.css'
+
 import Contactus from './pages/Contactus'
 import {
   Routes,
   Route,
-  Outlet
-} from "react-router-dom";
 
+} from "react-router-dom";
 
 function App() {
   return (
@@ -25,12 +24,6 @@ function App() {
         <Route path="aboutus" element={<Aboutus />} />
         <Route path="contactus" element={<Contactus />} />
       </Routes>
-      <div>
-
-        <Outlet />
-      </div>
-      <Footer />
-
     </>
   );
 }
