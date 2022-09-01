@@ -1,0 +1,9 @@
+.buildingPage {
+    margin-top: 100px;
+    padding:50px;
+}
+
+.contactList>svg {
+    padding:4px;
+    color:Red;
+}

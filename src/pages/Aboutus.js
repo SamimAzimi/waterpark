@@ -12,14 +12,15 @@ function Aboutus() {
                     on behalf of Safe green Tarde company,  registered under HRB-735087 of the Commercial Court of Mannheim, Germany by Abdolrazaq Rahimi (representative of Alman Company in Turkey)<br />
                     to our dear customers Sales are introduced and offered.<br />
 
-                    This complex of residential buildings consists of seven blocks,<br />
-                    <ol>
-                        <li>the first is a 5-star hotel called Radisa,</li>
-                        <li> the second block is a modern 105-bed hospital complex,</li>
-                        <li>the third block is a foreign language school</li>
-                        <li>the fourth block is commercial and business offices</li>
-                        <li>and the rest of the three blocks It was built for the purpose of accommodation and release or residence.</li>
-                    </ol>
+                    This complex of residential buildings consists of seven blocks,</p>
+                <ol>
+                    <li className='contactList'>the first is a 5-star hotel called Radisa,</li>
+                    <li className='contactList'> the second block is a modern 105-bed hospital complex,</li>
+                    <li className='contactList'>the third block is a foreign language school</li>
+                    <li className='contactList'>the fourth block is commercial and business offices</li>
+                    <li className='contactList'>and the rest of the three blocks It was built for the purpose of accommodation and release or residence.</li>
+                </ol>
+                <p>
                     It should be mentioned that the owners of the apartments in this complex have a 50% discount for their guests from their nearby hotel.<br />
                     Three residential blocks,<br />
                     each of which has 20 floors,<br />
@@ -31,7 +32,6 @@ function Aboutus() {
                     we have published this website
                 </p>
             </div>
-            <div className='registerNumber'>Register Number : HRB-735087</div>
             <div className="officesContact">
                 <h1>Our Offices</h1>
                 <i className="fas fa-headset"></i>
@@ -42,6 +42,7 @@ function Aboutus() {
                 <span>Germany Office</span>
                 <span>+49(0) 1607 608 595</span>
             </div>
+            <div className='registerNumber'>Register Number : HRB-735087</div>
         </div>
     )
 }
