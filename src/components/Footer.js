@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faMailBulk, faMailReply, faSearch, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import { } from '@fortawesome/fontawesome-svg-core'
+import { faPhone, faMailBulk, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {

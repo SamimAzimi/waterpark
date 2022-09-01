@@ -5,7 +5,6 @@ import Buildings from './pages/Buildings'
 // import Parks from './pages/Parks'
 import Aboutus from './pages/Aboutus'
 import Header from './components/Header'
-import Footer from './components/Footer'
 
 import Contactus from './pages/Contactus'
 import {

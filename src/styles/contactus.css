@@ -122,7 +122,11 @@
       font-size: 13px;
   }
   .map_bind{
+      display: flex;
+      justify-content: center;
      margin-top: 50px;
       border-radius: 30px;
       overflow: hidden;
   }
+
+ 
