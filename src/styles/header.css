@@ -39,6 +39,9 @@ nav > h1 {
     
     
 }
+.mobileNav {
+    display: none;
+}
 .headerLists {
     display: flex;
  
@@ -59,4 +62,79 @@ nav > h1 {
     position: absolute;
     top:100vh;
     height: 100vh;
+}
+
+@media screen and (max-width: 573px) {
+    nav  {
+     display: none;
+    }
+    .logoMenu {
+        position: fixed;
+        width: 100%;
+        top:0;
+        z-index: 2;
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+        background: rgba( 255, 255, 255, 0.6 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 20px );
+        -webkit-backdrop-filter: blur( 20px );
+        border-radius: 50px;
+    }
+    .logoMenu > * {
+        color:red;
+        font-size:2rem;
+        transition: all 100s ease-in-out;
+    }
+    .mobileNav {
+        display: unset;
+    }
+    .headerUlMob {
+        top:43px;
+        z-index: 2;
+        min-height: 90vh;
+        min-width: 100vw;
+        position: absolute;
+        background: rgba( 255, 255, 255, 0.6 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 20px );
+        -webkit-backdrop-filter: blur( 20px );
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .headerListsMob {
+        display: flex;
+        padding-left: 42px;
+        width: 100%;    
+        animation: menu 1s ease-in;
+    }
+   @keyframes menu {
+        from {
+            transform: translateX(-100vh);
+        }
+        to {
+            transform: translateX(0);
+        }
+   }
+    .headerListsMob > div {
+      
+        padding-left: 42px;
+         
+    }
+    .headerListsMob:hover > div svg {
+      
+        color:red;
+         
+    }
+    .headerListsMob:hover > div a {
+      
+        color: darkblue;
+         
+    }
+  
 }

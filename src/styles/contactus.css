@@ -128,5 +128,40 @@
       border-radius: 30px;
       overflow: hidden;
   }
+iframe {
+    width:90vw;
+    height:50vh;
+}
+  @media screen and (max-width: 573px) {
+    .contact_info_sec  {
+        position: unset;
+        width: 100%;
+    }
+    .contact_field {
+        padding:unset;
+        padding: 23px;
+        margin-bottom: 12px;
+    }
+    .contact_us {
+        margin-top: 28px;
+        padding:12px;
 
- 
+    }
+    .map_sec{
+        padding: 10px 0px;
+    }
+    .map_inner {
+        text-align: center;
+    }
+    .map_inner h4{
+        font-size: 43px;
+       
+    }
+    .map_bind{
+        display: flex;
+        justify-content:flex-start;
+        
+        border-radius: 2px;
+       
+    }
+  }

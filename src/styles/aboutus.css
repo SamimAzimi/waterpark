@@ -25,3 +25,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
  
     align-self: left;
 }
+
+@media screen and (max-width: 573px) {
+    .aboutUsPage {
+        margin-top:50px;
+        padding:50px;
+    
+    }
+}

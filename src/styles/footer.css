@@ -47,3 +47,16 @@ footer > p {
     outline: none;
     padding:7px;
 }
+
+@media screen and (max-width: 573px) {
+    footer>div {
+        flex-wrap: wrap;
+        gap:10px;
+       flex-grow: 1;
+       
+    }
+    .socials, .contact {
+        width: 200px;
+    }
+
+}

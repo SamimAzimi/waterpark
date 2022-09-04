@@ -7,3 +7,10 @@
     padding:4px;
     color:Red;
 }
+
+@media screen and (max-width: 573px) {
+    .buildingPage {
+        margin-top: 30px;
+       
+    }
+}

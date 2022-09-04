@@ -96,9 +96,6 @@ function Contactus() {
                                 <div className="map_bind">
                                     <iframe
                                         title="Water Park Town"
-                                        width="1200"
-                                        height="500"
-
                                         style={{ "border": "0", "margin-left": "10%" }}
                                         loading="lazy"
                                         allowfullscreen

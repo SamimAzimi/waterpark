@@ -1,6 +1,6 @@
 .showcase {
 
-    position: absolute;
+    position: relative;
     right:0;
     width: 100%;
     z-index: -10;
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border:1px solid black;
+  
 }
 .overlay {
     position: absolute;
@@ -66,7 +66,6 @@
 }
 .landingPage {
     z-index: -1;
-    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -225,3 +224,121 @@
     background-image: url('../assets/images/view2.jpg');
 
 }
+
+@media screen and (max-width: 573px) {
+    .showcase {
+
+      
+      position: relative;
+        width: 90vw;
+        z-index: -10;
+        min-height: 500px;
+        
+        margin-top:0;
+        margin-bottom: 0;
+        padding:0;
+       
+    }
+
+    .textofshowCase {
+        position: absolute;
+     
+        bottom:1px;
+        
+        height: 100px;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 1rem;
+      
+    }
+    .showcase video {
+        position: absolute;
+        top:100px;
+        z-index: -1;
+        bottom:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .buyahome {
+        height: 50px;
+        width:105px;
+        position: unset;
+   
+    }
+    .buyahome > a {
+        color:white;
+        
+    }
+    .overlay {
+        background-color: rgba(255, 255, 255, 0.322);
+    }
+    .textBold {
+        position: unset;
+        color:red;
+    }
+    .secondTextBold {
+        color:black;
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
+    .buyahome:hover  {
+        cursor: pointer;
+        color:whitesmoke;
+        background: rgba( 74, 144, 226, 0.65 );
+    }
+  
+    .landingPage {
+        position: relative;
+        min-width: auto;
+        min-height: auto;
+        z-index: -1;
+    }
+    .row {
+        display: flex;
+        height: 100%;
+        margin-top:1px;
+        align-items: flex-end;
+      
+        background-size: cover;
+        background-position: center;
+    }
+    .col {
+        padding-bottom: 100px;
+        flex-basis: 50%;
+    }
+    .col > h1 {
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-line: overline;
+       padding-left: 10px;
+        color:white;
+        font-size: 2rem;
+        font-style: oblique;
+        stroke: rgba(12, 24, 194, 0.37);
+    }
+    .card {
+        border:1px solid black;
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        border-radius: 10px;
+        margin:4px 4px;
+      
+        
+    }
+    .card:hover {
+        
+        transform: translateX(-150px) scale(3);
+        
+        
+    }
+    .col:nth-child(1):hover {
+        transform: translateX(-150px) translateY(100)  scale(3);
+    }
+  }

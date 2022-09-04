@@ -5,8 +5,9 @@ import videomp4 from '../assets/videos/waterparkavm.mp4'
 import Footer from '../components/Footer'
 function Home() {
     return (
-        <>
+        <div>
             <div className='showcase'>
+
                 <video autoPlay muted loop >
                     <source src={videomp4} type="video/mp4" />
                     {/* <source src="../assets/videos/waterparkAndriodHD.mp4" type="video/mp4" />
@@ -22,6 +23,7 @@ function Home() {
                     <h3 className='buyahome'><Link to="buildings">Buy a Home</Link></h3>
                 </div>
             </div>
+
             <div className='landingPage'>
                 <div className='row row1'>
                     <div className='col'>
@@ -43,6 +45,7 @@ function Home() {
 
                     </div>
                 </div>
+
                 <div className='row row2'>
                     <div className='col'>
                         <h1>Smart Living, Smart designing</h1>
@@ -64,6 +67,7 @@ function Home() {
 
                     </div>
                 </div>
+
                 <div className='row row3'>
                     <div className='col'>
                         <h1>Shaping your need</h1>
@@ -148,9 +152,10 @@ function Home() {
 
                     </div>
                 </div>
+
                 <Footer />
             </div>
-        </>
+        </div>
     )
 }
 
