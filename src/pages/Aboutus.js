@@ -5,6 +5,10 @@ function Aboutus() {
         <div className='aboutUsPage'>
 
             <div className='misson'>
+                <h1>Authorized By </h1>
+
+                <p>Website Openning and selling authorization is given to Mr. Abdul Raziq "Rahimi" from Istanbul Delta Izsiz Hodling Company</p>
+
                 <h1>Purpose</h1>
                 <p>
                     Modern and dreamy apartments like the experienced and pioneering Turkish company Delta Holding,<br />
